@@ -1,0 +1,209 @@
+body{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+/* header */
+header{
+    width:1150px;
+    margin:0px auto;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+ul{
+    display:flex;
+}
+span li{
+   list-style: none;
+   padding:0px 20px;
+   font-size: 18px;
+}
+span li a{
+    text-decoration: none;
+    
+}
+.fa-baby-carriage{
+    font-size: 30px;
+}
+
+
+ 
+ /* @media scren */
+  
+/* main */
+main{
+    width:1150px;
+    margin:0px auto;
+}
+/* firs-section */
+ .start-my-journey{
+     margin-top:100px;
+ }
+ .conteiner{
+     display:flex;
+     flex-direction: row;
+     margin:0px 0px 50px 0px;
+ }
+
+ .details h1{
+     font-size: 45px;
+ }
+ button{
+     background-color:crimson;
+     padding:10px;
+     font-size: 16px;
+     color:white;
+     border-radius: 10px;
+ }
+ button:hover{
+     background-color:teal;
+ }
+ .camera{
+     padding-left:40px;
+ }
+ .camera:hover{
+     transform:rotate(-45deg);
+     transition: transform 2s ease-in-out;
+ }
+.camera img{
+    width:350px;
+    border:1px solid rgba(128, 128, 128, 0.589);
+    padding:15px;
+    border-radius: 100%;
+}
+
+/*------- logo------ */
+.websites-lagu{
+    display:flex;
+    padding:0px 30px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.websites-lagu > div{
+    padding:0px 20px;
+}
+
+
+
+
+
+.content h1{
+   text-align: center;
+}
+
+.all-details {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+
+.all-card{
+    width:330px;
+    height:530px;
+    border:solid white;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    margin:20px 0px;
+}
+.card{
+    padding:15px;
+}
+.card-lago img{
+    width:100%;
+    height:200px;
+}
+
+.card-title h1{
+    font-size:30px;
+}
+.card-title p{
+    font-size: 29px;
+    font-weight: 200px;
+}
+.card-star span{
+    padding-left:10px;
+    font-size: 20px;
+}
+.fa-star{
+    color:goldenrod;
+}
+.card-details{
+    font-size: 20px;
+    font-weight:10px;
+}
+
+
+footer{
+    background-color:rgb(4, 4, 70);
+}
+
+.footer-dateils{
+padding:10px 0px 20px;
+ color:white;
+ text-align: center;
+}
+.fa-algolia{
+    font-size: 30px;
+    padding:0px 10px;
+}
+.fa-basketball-ball{
+    font-size: 30px;
+    padding:0px 10px;
+}
+.fa-twitter{
+    font-size: 30px;
+    padding:0px 10px;
+}
+.fa-youtube{
+    font-size: 30px;
+    padding:0px 10px;
+}
+.footer-section {
+    width: 100%;
+}
+/* @media scren */
+
+@media (max-width:700px) {
+    header span ul{
+        display: none;
+    }
+   .conteiner{
+       display:flex;
+       flex-direction: column-reverse;
+    }
+   .start-my-journey{
+    text-align: center;
+}
+.camera{
+    text-align: center;
+    margin-top: 5rem;
+}
+.all-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 30px;
+}
+.all-card {
+    width: 100%;
+    height: auto;
+    border: solid white;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 10px;
+    margin: 3rem 0px;
+}
+.card {
+    text-align: center;
+}
+.card-lago img{
+    width:100%;
+    height: auto;
+}
+.footer-section footer{
+    width: 1150px;
+}
+   
+}
