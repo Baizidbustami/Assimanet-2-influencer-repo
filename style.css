@@ -31,14 +31,17 @@ span li a{
 
 
  
- /* @media scren */
+
   
 /* main */
+
 main{
     width:1150px;
     margin:0px auto;
 }
+
 /* firs-section */
+
  .start-my-journey{
      margin-top:100px;
  }
@@ -51,12 +54,17 @@ main{
  .details h1{
      font-size: 45px;
  }
+ .details p{
+    line-height: 25px;
+    font-weight:600px;
+    font-size: 20px;
+ }
  button{
      background-color:crimson;
      padding:10px;
      font-size: 16px;
      color:white;
-     border-radius: 10px;
+     border-radius: 20px;
  }
  button:hover{
      background-color:teal;
@@ -75,7 +83,8 @@ main{
     border-radius: 100%;
 }
 
-/*------- logo------ */
+/*------- logo-style------ */
+
 .websites-lagu{
     display:flex;
     padding:0px 30px;
@@ -86,9 +95,7 @@ main{
     padding:0px 20px;
 }
 
-
-
-
+/* main-style */
 
 .content h1{
    text-align: center;
@@ -118,6 +125,7 @@ main{
 
 .card-title h1{
     font-size:30px;
+    text-align: left;
 }
 .card-title p{
     font-size: 29px;
@@ -134,7 +142,76 @@ main{
     font-size: 20px;
     font-weight:10px;
 }
+#all-see li{
+ list-style: none;
+}
+ aside a{
+    text-decoration: none;
+    color:red;
+    font-size: 18px;
+    padding-left: 1020px;
+}
 
+/* therd-section-style */
+
+.phone-team h1{
+    font-size: 35px;
+}
+.phone-img{
+    background-color:gainsboro;
+    width:550px;
+    border-radius: 10px;
+    margin:30px;
+    
+}
+.phone-img img{
+ width:550px;
+}
+.demo{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+}
+.demo-detils{
+    margin:20px;
+}
+.ph-lago img{
+    width:200px;
+}
+.them-detilse{
+    display:flex;
+    background-color: gainsboro;
+    padding:0px 15px 15px 20px;
+    border-radius: 8px;
+}
+.bacebook-info{
+    display:flex;
+}
+.facebook img{
+    width:150px;
+}
+.bacebook-info{
+    margin:1rem 0rem;
+    background-color: gainsboro;
+    padding:20px;
+    border-radius: 10px;
+}
+.phone-team P{
+    line-height: 25px;
+    font-weight:600px;
+    font-size: 17px;
+}
+.schedule-p p{
+    line-height: 25px;
+    font-weight:600px;
+    font-size: 17px;
+}
+.facebook-detiles{
+    line-height: 25px;
+    font-weight:600px;
+    font-size: 17px;
+}
+
+/* footer-style */
 
 footer{
     background-color:rgb(4, 4, 70);
@@ -164,9 +241,14 @@ padding:10px 0px 20px;
 .footer-section {
     width: 100%;
 }
+
 /* @media scren */
 
 @media (max-width:700px) {
+     header nav span h2{
+         margin-left: 360px;
+         font-size: 50px;
+     }
     header span ul{
         display: none;
     }
@@ -198,12 +280,33 @@ padding:10px 0px 20px;
 .card {
     text-align: center;
 }
+.card-title h1{
+    font-size:30px;
+    text-align:center;
+}
 .card-lago img{
     width:100%;
     height: auto;
 }
 .footer-section footer{
     width: 1150px;
+}
+.demo{
+    display:grid;
+    grid-template-columns:repeat(1, 1fr);
+}
+.phone-img{
+    background-color:gainsboro;
+    width:100%;
+    border-radius: 10px;
+    margin:30px;
+}
+.phone-img img{
+    width:100%;
+    height:auto;
+   }
+   .facebook-detiles{
+    margin:0px 50px;
 }
    
 }
